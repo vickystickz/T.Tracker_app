@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+
+:root {
+  --font-family: 'Open Sans', sans-serif;
+
+
+  --color-bg-white:#ffffff; 
+  --color-bg-black: #0d0d0d;
+  --color-bg-yellow: #ffd11a; 
+
+
+  --color-text-light: #0d0d0d;
+  --color-text-yellow: #ffd11a;
+
+  --color-icon-light: #ffff;
+  --color-icon-black: #0d0d0d;
+  
+}

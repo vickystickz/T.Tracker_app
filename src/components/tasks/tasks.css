@@ -1,0 +1,122 @@
+.Tasks_Container {
+    font-family: var(--font-family);
+    width: 40%;
+    padding: 0 15px;
+    display: relative;
+    z-index: 1;
+}
+
+.Tasks_Container > * {
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 60px;
+    height: 40px;
+    line-height: 60px;
+    margin-top: 30px;
+}
+
+.search-icon {
+    width: 25px;
+    height: 17px;
+    cursor: pointer;
+}
+
+.User_tasks_info {
+    height: 38%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+.User_tasks_info h2{
+    font-size: 19px;
+    font-weight: 400;
+    color: #cccccc;
+}
+
+
+.User_tasks_info h1{
+    font-size: 30px;
+    line-height: 35px;
+    width: 210px;
+    font-weight: 700;
+
+}
+
+.User_tasks_info_updates {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.User_tasks_search-bar {
+    width: 100%;
+    padding: 1rem 1rem;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+}
+
+.User_tasks_search-bar .search {
+    width: 80%;
+    padding: 0.2rem;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background-color: #e6e6e6;   
+}
+
+.myTask_list_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.myTask_list_links li {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.activeList {
+    color: var(--color-text-yellow);
+    
+}
+
+.progress-bar{
+    font-size: 12px;
+    font-family: var(--font-family);
+}
+.Tasks_showing_contents {
+    overflow: auto;
+    text-align: justify;
+    scroll-behavior: smooth;
+    height: 300px;
+}
+
+.Task_contents {
+    padding: 1rem;
+    border-radius: 5px;
+    width: 95%;
+    border: none;
+    height: 160px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-bottom: 10px;
+    color:white;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.task-icon-settings {
+    display: flex; 
+    justify-content: space-between;
+     
+}
+
+.react-sweet-progress-symbol {
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+} 
